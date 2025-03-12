@@ -30,7 +30,7 @@ else
 
 string csvFile = $"{DateTime.Now.ToString("ddMMyyyyHHmmss")}.csv";
 using StreamWriter outputFile = new StreamWriter(Path.Combine("./", csvFile), true);
-outputFile.WriteLine("Guid,String,Int,Long,Float,Double,Decimal,Boolean,String Array,IntArray,FloatArray");
+outputFile.WriteLine("Guid,String,Int,Long,Float,Double,Decimal,Boolean,String Array,Int Array,Float Array");
 
 for (int i = 0; i < lineCount; i++)
 {

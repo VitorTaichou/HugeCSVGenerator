@@ -26,7 +26,7 @@ Then, enter the desired number of lines when prompted.
 ### Output
 The application generates a `.csv` file in the current directory with the format:
 ```csv
-Guid,String,Int,Long,Float,Double,Decimal,Boolean,String Array,IntArray,FloatArray
+Guid,String,Int,Long,Float,Double,Decimal,Boolean,String Array,Int Array,Float Array
 <random data>
 ...
 ```
